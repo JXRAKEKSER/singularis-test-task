@@ -1,0 +1,7 @@
+.validations-captions__validations-caption {
+  margin: 0 0 5px 0;
+}
+
+.validations-captions__validations-caption:last-child {
+  margin: 0;
+}

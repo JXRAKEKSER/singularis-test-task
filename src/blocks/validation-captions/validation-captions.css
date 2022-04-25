@@ -1,0 +1,6 @@
+.validation-captions{
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+.validation-group__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+
+.validation-group__item:last-child {
+  margin: 0;
+}

@@ -1,0 +1,4 @@
+.salary-calc-form {
+  display: flex;
+  flex-direction: column;
+}

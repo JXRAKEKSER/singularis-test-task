@@ -1,0 +1,7 @@
+.validation-group__user-input-with-validation {
+  margin: 0 0 5px 0;
+}
+
+.validation-group__user-input-with-validation:last-child {
+  margin: 0;
+}

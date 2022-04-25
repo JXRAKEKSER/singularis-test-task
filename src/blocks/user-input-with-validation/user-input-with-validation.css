@@ -1,0 +1,4 @@
+.user-input-with-validation {
+  display: flex;
+  flex-direction: column;
+}

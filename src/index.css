@@ -1,0 +1,46 @@
+/*
+ Каждый блок стилей разделен комментарием с названием блока, блоки компонентов называются с большой буквы,
+ вспомогательные блоки со стилями начинаются с маленькой "salary-calc-form"
+ импорты указаны строго в порядке: корневой файл блока  -> модификаторы блока  -> элемент  блока  -> модификатор  элемента -> и т.д.
+ */
+/*Внешние файлы стилей*/
+@import url(./vendor/normalize.css);
+/*общие стили*/
+@import url(./blocks/page/page.css);
+
+/*salary-calc-form*/
+@import url(./blocks/salary-calc-form/salary-calc-form.css);
+@import url(./blocks/salary-calc-form/__input/salary-calc-form__input.css);
+@import url(./blocks/salary-calc-form/__input/_type/salary-calc-form__input_type_error.css);
+@import url(./blocks/salary-calc-form/__lable/salary-calc-form__lable.css);
+@import url(./blocks//salary-calc-form/__date-picker/salary-calc-form__date-picker.css);
+@import url(./blocks/salary-calc-form/__date-picker/_type/salary-calc-form__date-picker_type_error.css);
+@import url(./blocks/salary-calc-form/__submit-button/salary-calc-form__submit-button.css);
+@import url(./blocks/salary-calc-form/__user-input-with-validation/salary-calc-form__user-with-validation.css);
+@import url(./blocks/salary-calc-form/__validation-group/salary-calc-form__validation-group.css);
+/*User-input-with-validation*/
+@import url(./blocks/user-input-with-validation/user-input-with-validation.css);
+/*Salary-per-hour*/
+@import url(./blocks/salary-per-hour/salary-per-hour.css);
+@import url(./blocks/salary-per-hour/__result/salary-per-hour__result.css);
+@import url(./blocks/salary-per-hour/__alert/salary-per-hour__alert.css);
+/*Validation-captions*/
+@import url(./blocks/validation-captions/validation-captions.css);
+@import url(./blocks/validation-captions/__validation-caption/validations-captions__validations-caption.css);
+/*validation-caption*/
+@import url(./blocks/validation-caption/validation-caption.css);
+@import url(./blocks/validation-caption/__text/validation-caption__text.css);
+/*Validation-group*/
+@import url(./blocks/validation-group/validation-group.css);
+@import url(./blocks/validation-group/_invalid/validation-group_invalid.css);
+@import url(./blocks/validation-group/__item/validation-group__item.css);
+@import url(./blocks/validation-group/__user-input-with-validation/validation-group__user-input-with-validation.css);
+/*Alert*/
+@import url(./blocks/alert/alert.css);
+@import url(./blocks/alert/_size/alert_size_small.css);
+@import url(./blocks/alert/_size/alert_size_medium.css);
+@import url(./blocks/alert/_size/alert_size_large.css);
+@import url(./blocks/alert/_type/alert_type_error.css);
+@import url(./blocks/alert/_type/alert_type_success.css);
+@import url(./blocks/alert/_type/alert_type_warning.css);
+@import url(./blocks/alert/__message/alert__message.css);
